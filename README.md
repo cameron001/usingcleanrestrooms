@@ -1,3 +1,3 @@
 # usingcleanrestrooms
 
-Keep it clean
+Keep it clean!
