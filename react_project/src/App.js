@@ -6,11 +6,20 @@ import { Map, Marker } from "pigeon-maps";
 function App() {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
   const [zoom, setZoom] = useState(15);
+  const [description, setDescription] = React.useState("");
 
   const handleMarkerClick = (markerCoordinates) => {
     setCenter(markerCoordinates);
     setZoom(18);
   };
+
+  const handleMouseOver = (description) => {
+   setDescription(description);
+   };
+
+   const handleMouseOut = () => {
+   setDescription("");
+   };
 
   return (
     <div>
@@ -20,7 +29,24 @@ function App() {
           width={50}
           anchor={[33.97887246284416, -117.32811758572333]}
           onClick={() => handleMarkerClick([33.97887246284416, -117.32811758572333])} 
-        />
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness: 5/5 <br/>
+              Neatness:    4/5
+            </pre>
+            </>
+          )}
+          
+          onMouseOut={handleMouseOut}
+          style={{backgroundColor: 'green'}}
+         />
+         {description && (
+            <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
+         )}
+         
+      
         <Marker  // MRB
           width={50}
           anchor={[33.9769801275596, -117.3279795828765]}
