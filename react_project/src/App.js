@@ -1,9 +1,39 @@
 import './App.css';
-
 import React, { useState } from "react";
 import { Map, Marker } from "pigeon-maps";
+import { Button, View, Text, TouchableOpacity, StyleSheet, } from 'react-native';
+
+// Navigation import
+import { NavigationContainer } from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+
+const Stack = createStackNavigator();
+
+const styles = StyleSheet.create({
+  titleText: {
+    fontWeight: 'bold',
+    fontSize: 50,
+    color: '#4287f5',
+  },
+
+  reviewText: {
+    fontWeight: 'bold',
+    fontSize: 20,
+  }
+})
 
 function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Reviews" component={ReviewScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  )
+}
+
+function HomeScreen({navigation}) {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
   const [zoom, setZoom] = useState(15);
   const [description, setDescription] = React.useState("");
@@ -17,36 +47,36 @@ function App() {
    setDescription(description);
    };
 
-   const handleMouseOut = () => {
-   setDescription("");
-   };
+  const handleMouseOut = () => {
+  setDescription("");
+  };
 
   return (
     <div>
       <h1 className="Bathroom">UCR Bathrooms on Campus</h1>
       <Map height={'100vh'} width={'100vw'} center={center} zoom={zoom} style={{ height: '100vh', width: '100vw' }}>
-        <Marker // SRC
-          width={50}
-          anchor={[33.97887246284416, -117.32811758572333]}
-          onClick={() => handleMarkerClick([33.97887246284416, -117.32811758572333])} 
-          onMouseOver={() => handleMouseOver(
-            <>
-            <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
-              Cleanliness: 5/5 <br/>
-              Neatness:    4/5c
-            </pre>
-            </>
-          )}
+          <Marker // SRC
+              width={50}
+              anchor={[33.97887246284416, -117.32811758572333]}
+              onClick = {() => navigation.navigate('Reviews')}
+              onMouseOver={() => handleMouseOver(
+                <>
+                <pre>
+                  ~ Bathroom Ratings ~<hr/><br/>
+                  Cleanliness:   5/5 <br/>
+                  Accessibility: 4/5
+                </pre>
+                </>
+              )}
+            
+            onMouseOut={handleMouseOut}
+            style={{backgroundColor: 'green'}}
+          />
           
-          onMouseOut={handleMouseOut}
-          style={{backgroundColor: 'green'}}
-         />
          {description && (
             <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
          )}
          
-      
         <Marker  // MRB
           width={50}
           anchor={[33.9769801275596, -117.3279795828765]}
@@ -188,7 +218,6 @@ function App() {
           onClick={() => handleMarkerClick([33.97152984290477, -117.32423408859408])}
         />
 
-
         <Marker
           width={50}  // Orbach Library
           anchor={[33.974548794609056, -117.32445454526781]}
@@ -306,5 +335,30 @@ function App() {
     </div>
   );
 }
+
+// Shows after marker click
+const ReviewScreen = () => {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <Text style={styles.titleText}>
+        SRC Bathroom Reviews
+      </Text>
+      <br></br>
+      <br></br>
+      <Text style={styles.reviewText}>
+        John Doe: 4/5
+      </Text>
+      <br></br>
+      <Text style={styles.reviewText}>
+        Jane Doe: 5/5
+      </Text>
+      <br></br>
+      <Text style={styles.reviewText}>
+        George Hill: 3/5
+      </Text>
+    </View>
+  )
+}
+
 export default App;
 
