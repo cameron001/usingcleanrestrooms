@@ -34,7 +34,7 @@ function App() {
             <pre>
               ~ Bathroom Ratings ~<hr/><br/>
               Cleanliness: 5/5 <br/>
-              Neatness:    4/5
+              Neatness:    4/5c
             </pre>
             </>
           )}
@@ -143,10 +143,69 @@ function App() {
           onClick={() => handleMarkerClick([33.969873437650385, -117.3259158691591])}
         />
         <Marker
+          width={50}  // Entomology Museum
+          anchor={[33.97007470718678, -117.32555183349648]}
+          onClick={() => handleMarkerClick([33.97007470718678, -117.32555183349648])}
+        />
+        <Marker
+          width={50}  // SOM Research
+          anchor={[33.97056881915526, -117.32553421638364]}
+          onClick={() => handleMarkerClick([33.97056881915526, -117.32553421638364])}
+        />
+        <Marker
+          width={50}  // East L&Q
+          anchor={[33.97045630804011, -117.32476261841252]}
+          onClick={() => handleMarkerClick([33.97045630804011, -117.32476261841252])}
+        />
+        <Marker
+          width={50}  // Entomology
+          anchor={[33.97071414521058, -117.32634538295305]}
+          onClick={() => handleMarkerClick([33.97071414521058, -117.32634538295305])}
+        />
+        <Marker
+          width={50}  // Genomics
+          anchor={[33.97153453105675, -117.32619276008063]}
+          onClick={() => handleMarkerClick([33.97153453105675, -117.32619276008063])}
+        />
+        <Marker
+          width={50}  // Boyden Laboratory
+          anchor={[33.97111261923376, -117.32554834946234]}
+          onClick={() => handleMarkerClick([33.97111261923376, -117.32554834946234])}
+        />
+        <Marker
+          width={50}  // Campbell Hall
+          anchor={[33.97168923106722, -117.3253957224082]}
+          onClick={() => handleMarkerClick([33.97168923106722, -117.3253957224082])}
+        />
+        <Marker
+          width={50}  // University Office Bldg
+          anchor={[33.971731422650215, -117.32498307534557]}
+          onClick={() => handleMarkerClick([33.971731422650215, -117.32498307534557])}
+        />
+        <Marker
+          width={50}  // Fawcett Laboratory
+          anchor={[33.97152984290477, -117.32423408859408]}
+          onClick={() => handleMarkerClick([33.97152984290477, -117.32423408859408])}
+        />
+
+
+        <Marker
           width={50}  // Orbach Library
           anchor={[33.974548794609056, -117.32445454526781]}
           onClick={() => handleMarkerClick([33.974548794609056, -117.32445454526781])}
         />
+        <Marker
+          width={50}  // Chemical Sciences
+          anchor={[33.974464415345345, -117.32306114714689]}
+          onClick={() => handleMarkerClick([33.974464415345345, -117.32306114714689])}
+        />
+        <Marker
+          width={50}  // School of Medicine Education Building
+          anchor={[33.97380812993979, -117.32398536872923]}
+          onClick={() => handleMarkerClick([33.97380812993979, -117.32398536872923])}
+        />
+
+
         <Marker
           width={50}  // Physics
           anchor={[33.97457692065917, -117.32540985627634]}
@@ -156,6 +215,16 @@ function App() {
           width={50}  // Pierce Hall
           anchor={[33.97423471599278, -117.3272102511631]}
           onClick={() => handleMarkerClick([33.97423471599278, -117.3272102511631])}
+        />
+        <Marker
+          width={50}  // Geology
+          anchor={[33.97443628872918, -117.3262238495412]}
+          onClick={() => handleMarkerClick([33.97443628872918, -117.3262238495412])}
+        />
+        <Marker
+          width={50}  // Science Labs 1
+          anchor={[33.97391126236491, -117.32617862686456]}
+          onClick={() => handleMarkerClick([33.97391126236491, -117.32617862686456])}
         />
         <Marker
           width={50}  // Winston Chung Hall
@@ -178,10 +247,56 @@ function App() {
           onClick={() => handleMarkerClick([33.97419607342888, -117.32978318922721])}
         />
         <Marker
+          width={50}  // Costo Hall
+          anchor={[33.97423118941484, -117.3292268814447]}
+          onClick={() => handleMarkerClick([33.97423118941484, -117.3292268814447])}
+        />
+        <Marker
+          width={50}  // Spieth Hall
+          anchor={[33.972837215205715, -117.3265542910039]}
+          onClick={() => handleMarkerClick([33.972837215205715, -117.3265542910039])}
+        />
+        <Marker
+          width={50}  // Batchelor Hall
+          anchor={[33.972593329627976, -117.3251002359208]}
+          onClick={() => handleMarkerClick([33.972593329627976, -117.3251002359208])}
+        />
+        <Marker
+          width={50}  // Life Sciences
+          anchor={[33.97228402373831, -117.32658721794732]}
+          onClick={() => handleMarkerClick([33.97228402373831, -117.32658721794732])}
+        />
+        <Marker
+          width={50}  // Biological Sciences
+          anchor={[33.972265388862475, -117.32608175581554]}
+          onClick={() => handleMarkerClick([33.972265388862475, -117.32608175581554])}
+        />
+        <Marker
+          width={50}  // Webber Hall
+          anchor={[33.97353442674561, -117.32536279367079]}
+          onClick={() => handleMarkerClick([33.97353442674561, -117.32536279367079])}
+        />
+        <Marker
           width={50}  // Student Success Center
           anchor={[33.97420914473526, -117.3305187519793]}
           onClick={() => handleMarkerClick([33.97420914473526, -117.3305187519793])}
-        />
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness: 4/5 <br/>
+              Neatness:    4/5
+            </pre>
+            </>
+          )}
+          
+          onMouseOut={handleMouseOut}
+          style={{backgroundColor: 'green'}}
+         />
+         {description && (
+            <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
+         )}
+
         <Marker
           width={50}  // Boyce Hall
           anchor={[33.973504419864376, -117.32491567420728]}
