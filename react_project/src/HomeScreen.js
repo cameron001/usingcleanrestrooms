@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Map, Marker } from "pigeon-maps";
 
-
-
-
 export function HomeScreen({navigation}) {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
   const [zoom, setZoom] = useState(15);
@@ -304,7 +301,7 @@ export function HomeScreen({navigation}) {
                 onClick={() => handleMarkerClick([33.973504419864376, -117.32491567420728])}
                 />
             </Map>
-        </div>
+        </div>      
     </div>
   );
 }

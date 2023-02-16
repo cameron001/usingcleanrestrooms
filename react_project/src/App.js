@@ -1,9 +1,7 @@
 import './App.css';
 import React, { useState } from "react";
-import { Map, Marker } from "pigeon-maps";
-import { Button, View, Text, TouchableOpacity, StyleSheet, } from 'react-native';
+import { View, Text, StyleSheet, } from 'react-native';
 import HomeScreen from './HomeScreen.js';
-
 
 // Navigation import
 import { NavigationContainer } from '@react-navigation/native';
