@@ -8,8 +8,9 @@ test("map header appears", () => {
     render(<HomeScreen />);
     
     //select the elements you want to interact with
-    expect(screen.getByText("UCR Bathrooms on Campus"));
-    
+
+    const linkElement = screen.getByText("UCR Bathrooms on Campus");
+    expect(linkElement).toBeInTheDocument();
     
     
 });
