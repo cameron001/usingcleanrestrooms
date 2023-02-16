@@ -14,3 +14,12 @@ test("map header appears", () => {
     
     
 });
+
+test("map appears", () => {
+    render(<HomeScreen />);
+
+    const mapText = screen.getByTestId("mapID");
+    expect(mapText).toBeInTheDocument();
+});
+
+
