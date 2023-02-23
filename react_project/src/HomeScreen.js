@@ -3,7 +3,7 @@ import { Map, Marker } from "pigeon-maps";
 
 export function HomeScreen({navigation}) {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
-  const [zoom, setZoom] = useState(15);
+  const [zoom, setZoom] = useState(16);
   const [description, setDescription] = React.useState("");
 
   const handleMarkerClick = (markerCoordinates) => {
@@ -23,7 +23,7 @@ export function HomeScreen({navigation}) {
     <div>
       <h1 className="Bathroom">UCR Bathrooms on Campus</h1>
         <div data-testid="mapID">
-            <Map height={'100vh'} width={'100vw'} center={center} zoom={zoom} style={{ height: '100vh', width: '100vw' }}>
+            <Map height={'100vh'} width={'100vw'} center={center} zoom={zoom} minZoom={16} zoomSnap={false} style={{ height: '100vh', width: '100vw' }}>
                 <Marker // SRC
                     width={50}
                     anchor={[33.97887246284416, -117.32811758572333]}
