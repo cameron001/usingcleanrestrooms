@@ -33,14 +33,12 @@ function App() {
   )
 }
 
-
-
 // Shows after marker click
-const ReviewScreen = () => {
+const ReviewScreen = ({navigation, route}) => {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text style={styles.titleText}>
-        SRC Bathroom Reviews
+        {route.params.name} Bathroom Reviews
       </Text>
       <br></br>
       <br></br>
