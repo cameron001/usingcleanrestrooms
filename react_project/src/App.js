@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from "react";
 import { View, Text, StyleSheet, } from 'react-native';
 import HomeScreen from './HomeScreen.js';
+import ReviewScreen from './ReviewScreen.js';
 
 // Navigation import
 import { NavigationContainer } from '@react-navigation/native';
@@ -30,32 +31,6 @@ function App() {
         <Stack.Screen name="Reviews" component={ReviewScreen} />
       </Stack.Navigator>
     </NavigationContainer>
-  )
-}
-
-
-
-// Shows after marker click
-const ReviewScreen = () => {
-  return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text style={styles.titleText}>
-        SRC Bathroom Reviews
-      </Text>
-      <br></br>
-      <br></br>
-      <Text style={styles.reviewText}>
-        John Doe: 4/5
-      </Text>
-      <br></br>
-      <Text style={styles.reviewText}>
-        Jane Doe: 5/5
-      </Text>
-      <br></br>
-      <Text style={styles.reviewText}>
-        George Hill: 3/5
-      </Text>
-    </View>
   )
 }
 
