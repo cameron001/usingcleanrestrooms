@@ -310,17 +310,18 @@ export function HomeScreen({navigation}) {
           onMouseOut={handleMouseOut}
           style={{backgroundColor: 'green'}}
          />
+        <Marker
+          width={50}  // Boyce Hall
+          anchor={[33.973504419864376, -117.32491567420728]}
+          onClick={() => navigation.navigate('Reviews', {name: 'Boyce Hall'})}
+        />
+
+
          {description && (
             <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
          )}
-                <Marker
-                width={50}  // Boyce Hall
-                anchor={[33.973504419864376, -117.32491567420728]}
-                onClick={() => handleMarkerClick([33.973504419864376, -117.32491567420728])}
-                />
-            </Map>
-        </div>      
-    </div>
+        </Map>
+    </div>      
   );
 }
 export default HomeScreen;
