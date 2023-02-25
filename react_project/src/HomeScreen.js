@@ -23,7 +23,7 @@ const ProfileScreen = ({navigation, route}) => {
 
 export function HomeScreen({navigation}) {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
-  const [zoom, setZoom] = useState(15);
+  const [zoom, setZoom] = useState(16);
   const [description, setDescription] = React.useState("");
 
   const handleMarkerClick = (markerCoordinates) => {
@@ -313,13 +313,13 @@ export function HomeScreen({navigation}) {
          {description && (
             <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
          )}
-
-        <Marker
-          width={50}  // Boyce Hall
-          anchor={[33.973504419864376, -117.32491567420728]}
-          onClick = {() => navigation.navigate('Reviews')}
-        />
-      </Map>
+                <Marker
+                width={50}  // Boyce Hall
+                anchor={[33.973504419864376, -117.32491567420728]}
+                onClick={() => handleMarkerClick([33.973504419864376, -117.32491567420728])}
+                />
+            </Map>
+        </div>      
     </div>
   );
 }
