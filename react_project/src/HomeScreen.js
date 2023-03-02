@@ -491,98 +491,332 @@ export function HomeScreen({navigation}) {
           width={50}  // University Office 
           anchor={[33.971731422650215, -117.32498307534557]}
           onClick={() => navigation.navigate('Reviews', {name: 'University Office'})}
+
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
         <Marker
           width={50}  // Fawcett Laboratory
           anchor={[33.97152984290477, -117.32423408859408]}
           onClick={() => navigation.navigate('Reviews', {name: 'Fawcett Laboratory'})}
-        />
+       
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
+       />
 
         <Marker
           width={50}  // Orbach Library
           anchor={[33.974548794609056, -117.32445454526781]}
           onClick={() => navigation.navigate('Reviews', {name: 'Orbach Library'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Chemical Sciences
           anchor={[33.974464415345345, -117.32306114714689]}
           onClick={() => navigation.navigate('Reviews', {name: 'Chemical Sciences'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // School of Medicine Education Building
           anchor={[33.97380812993979, -117.32398536872923]}
           onClick={() => navigation.navigate('Reviews', {name: 'School of Medicine Education Building'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Physics
           anchor={[33.97457692065917, -117.32540985627634]}
           onClick={() => navigation.navigate('Reviews', {name: 'Physics'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Pierce Hall
           anchor={[33.97423471599278, -117.3272102511631]}
           onClick={() => navigation.navigate('Reviews', {name: 'Pierce Hall'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Geology
           anchor={[33.97443628872918, -117.3262238495412]}
           onClick={() => navigation.navigate('Reviews', {name: 'Geology'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Science Labs 1
           anchor={[33.97391126236491, -117.32617862686456]}
           onClick={() => navigation.navigate('Reviews', {name: 'Science Labs 1'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Winston Chung Hall
           anchor={[33.9754510947876, -117.32582341661066]}
           onClick={() => navigation.navigate('Reviews', {name: 'Winston Chung Hall'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Bourns Hall
           anchor={[33.975460373627, -117.32692749538892]}
           onClick={() => navigation.navigate('Reviews', {name: 'Bourns Hall'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // HUB
           anchor={[33.974311512641826, -117.32874186187665]}
           onClick={() => navigation.navigate('Reviews', {name: 'HUB'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Student Services
           anchor={[33.97419607342888, -117.32978318922721]}
           onClick={() => navigation.navigate('Reviews', {name: 'Student Services'})}
+          
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Costo Hall
           anchor={[33.97423118941484, -117.3292268814447]}
           onClick={() => navigation.navigate('Reviews', {name: 'Costo Hall'})}
+          
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Spieth Hall
           anchor={[33.972837215205715, -117.3265542910039]}
           onClick={() => navigation.navigate('Reviews', {name: 'Spieth Hall'})}
+
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Batchelor Hall
           anchor={[33.972593329627976, -117.3251002359208]}
           onClick={() => navigation.navigate('Reviews', {name: 'Batchelor Hall'})}
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Life Sciences
           anchor={[33.97228402373831, -117.32658721794732]}
           onClick={() => navigation.navigate('Reviews', {name: 'Life Sciences'})}
+        
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Biological Sciences
           anchor={[33.972265388862475, -117.32608175581554]}
           onClick={() => navigation.navigate('Reviews', {name: 'Biological Sciences'})}
+       
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Webber Hall
           anchor={[33.97353442674561, -117.32536279367079]}
           onClick={() => navigation.navigate('Reviews', {name: 'Webber Hall'})}
+        
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
+
         <Marker
           width={50}  // Student Success Center
           anchor={[33.97420914473526, -117.3305187519793]}
@@ -604,19 +838,22 @@ export function HomeScreen({navigation}) {
           width={50}  // Boyce Hall
           anchor={[33.973504419864376, -117.32491567420728]}
           onClick={() => navigation.navigate('Reviews', {name: 'Boyce Hall'})}
+
+          onMouseOver={() => handleMouseOver(
+            <>
+            <pre>
+              ~ Bathroom Ratings ~<hr/><br/>
+              Cleanliness:   5/5 <br/>
+              Accessibility: 4/5
+            </pre>
+            </>
+          )}
+        
+          onMouseOut={handleMouseOut}
         />
-
-
-         {description && (
-            <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
-         )}
-                <Marker
-                width={50}  // Boyce Hall
-                anchor={[33.973504419864376, -117.32491567420728]}
-                onClick={() => handleMarkerClick([33.973504419864376, -117.32491567420728])}
-                />
-            </Map>
-        </div>      
+        
+      </Map>
+    </div>      
   );
 }
 export default HomeScreen;
