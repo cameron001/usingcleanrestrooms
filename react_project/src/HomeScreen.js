@@ -71,6 +71,7 @@ export function HomeScreen({navigation}) {
           width={50}
           anchor={[33.9769801275596, -117.3279795828765]}
           onClick={() => navigation.navigate('Reviews', {name: 'MRB'})}
+          style={{backgroundColor: 'green'}}
         />
         <Marker
           width={50}  // MSE
@@ -81,6 +82,7 @@ export function HomeScreen({navigation}) {
           width={50}  // UNLH
           anchor={[33.97567222541074, -117.32837880542417]}
           onClick={() => navigation.navigate('Reviews', {name: 'UNLH'})}
+          style={{backgroundColor: 'green'}}
         />
         <Marker
           width={50}  // Skye Hall
@@ -91,6 +93,7 @@ export function HomeScreen({navigation}) {
           width={50}  // Career Center
           anchor={[33.97519606261705, -117.3281890520419]}
           onClick={() => navigation.navigate('Reviews', {name: 'SRC'})}
+          style={{backgroundColor: 'green'}}
         />
         <Marker
           width={50}  // Athletics and Dance
@@ -121,6 +124,7 @@ export function HomeScreen({navigation}) {
           width={50}  // The Barn
           anchor={[33.97226912406662, -117.33046169641133]}
           onClick={() => navigation.navigate('Reviews', {name: 'The Barn'})}
+          
         />
         <Marker
           width={50}  // Sproul Hall
@@ -320,8 +324,14 @@ export function HomeScreen({navigation}) {
          {description && (
             <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '10px', left: '10px'}}>{description}</div>
          )}
-        </Map>
-    </div>      
+                <Marker
+                width={50}  // Boyce Hall
+                anchor={[33.973504419864376, -117.32491567420728]}
+                onClick={() => handleMarkerClick([33.973504419864376, -117.32491567420728])}
+                />
+            </Map>
+        </div>      
+    </div>
   );
 }
 export default HomeScreen;
