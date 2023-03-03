@@ -10,19 +10,6 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
 
-const styles = StyleSheet.create({
-  titleText: {
-    fontWeight: 'bold',
-    fontSize: 50,
-    color: '#4287f5',
-  },
-
-  reviewText: {
-    fontWeight: 'bold',
-    fontSize: 20,
-  }
-})
-
 function App() {
   return (
     <NavigationContainer>

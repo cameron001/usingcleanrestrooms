@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, StyleSheet, } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     titleText: {
@@ -12,14 +12,14 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       fontSize: 20,
     }
-  })
+})
 
 // Shows after marker click
 const ReviewScreen = ({navigation, route}) => {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text style={styles.titleText}>
-        {route.params.name} Bathroom Reviews
+        {route.params.name} Restroom Reviews
       </Text>
       <br></br>
       <br></br>
