@@ -52,7 +52,7 @@ export function HomeScreen({navigation}) {
               onMouseOver={() => handleMouseOver(
                 <>
                 <pre>
-                  ~ Bathroom Ratings ~<hr/><br/>
+                  ~ SRC Ratings ~<hr/><br/>
                   Cleanliness:   5/5 <br/>
                   Accessibility: 4/5
                 </pre>
@@ -76,7 +76,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ MRB Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -92,7 +92,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ MSE Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -109,7 +109,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ UNLH Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -125,7 +125,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Skye Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -142,7 +142,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ SRC Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -158,7 +158,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Athletics and Dance Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -174,7 +174,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ CHASS Interdisciplinary Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -190,7 +190,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Arts Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -206,7 +206,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Hinderaker Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -222,7 +222,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Humanities and Social Sciences Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -254,7 +254,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Sproul Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -270,7 +270,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Watkins Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -286,7 +286,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Rivera Library Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -302,7 +302,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Humanities Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -318,7 +318,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Olmsted Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -334,7 +334,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Psychology Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -350,7 +350,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Chapman Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -366,7 +366,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Anderson Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -382,7 +382,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Entomology Museum Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -398,7 +398,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ SOM Research Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -414,7 +414,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ East L&Q Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -430,7 +430,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Entomology Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -446,7 +446,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Genomics Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -462,7 +462,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Boyden Laboratory Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -478,7 +478,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Campbell Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -495,7 +495,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ University Office Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -512,7 +512,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Fawcett Laboratory Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -529,7 +529,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Orbach Library Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -546,7 +546,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Chemical Sciences Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -563,7 +563,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ School of Medicine Education Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -580,7 +580,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Physics Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -597,7 +597,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Pierce Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -614,7 +614,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Geology Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -631,7 +631,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Science Labs 1 Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -648,7 +648,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Winston Chung Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -665,7 +665,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Bourns Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -682,7 +682,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ HUB Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -700,7 +700,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Student Services Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -714,11 +714,10 @@ export function HomeScreen({navigation}) {
           width={50}  // Costo Hall
           anchor={[33.97423118941484, -117.3292268814447]}
           onClick={() => navigation.navigate('Reviews', {name: 'Costo Hall'})}
-          
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Costo Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -732,11 +731,10 @@ export function HomeScreen({navigation}) {
           width={50}  // Spieth Hall
           anchor={[33.972837215205715, -117.3265542910039]}
           onClick={() => navigation.navigate('Reviews', {name: 'Spieth Hall'})}
-
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Spieth Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -753,7 +751,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Batchelor Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -767,11 +765,10 @@ export function HomeScreen({navigation}) {
           width={50}  // Life Sciences
           anchor={[33.97228402373831, -117.32658721794732]}
           onClick={() => navigation.navigate('Reviews', {name: 'Life Sciences'})}
-        
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Life Sciences Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -785,11 +782,10 @@ export function HomeScreen({navigation}) {
           width={50}  // Biological Sciences
           anchor={[33.972265388862475, -117.32608175581554]}
           onClick={() => navigation.navigate('Reviews', {name: 'Biological Sciences'})}
-       
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Biological Sciences Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -803,11 +799,10 @@ export function HomeScreen({navigation}) {
           width={50}  // Webber Hall
           anchor={[33.97353442674561, -117.32536279367079]}
           onClick={() => navigation.navigate('Reviews', {name: 'Webber Hall'})}
-        
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Webber Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -824,7 +819,7 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ SSC Ratings ~<hr/><br/>
               Cleanliness: 4/5 <br/>
               Neatness:    4/5
             </pre>
@@ -838,11 +833,10 @@ export function HomeScreen({navigation}) {
           width={50}  // Boyce Hall
           anchor={[33.973504419864376, -117.32491567420728]}
           onClick={() => navigation.navigate('Reviews', {name: 'Boyce Hall'})}
-
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ Boyce Hall Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -856,4 +850,5 @@ export function HomeScreen({navigation}) {
     </div>      
   );
 }
+
 export default HomeScreen;
