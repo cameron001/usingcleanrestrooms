@@ -33,24 +33,12 @@ export function HomeScreen({navigation}) {
           {description && (
               <div style={styleSheet.descriptionStyle}>{description}</div>
           )}
-
-        <TouchableOpacity 
-            disabled={true}
-            style={styleSheet.Legend}
-            underlayColor='#3b83f7'>
-            <Text style={styleSheet.LegendText}><u>Legend</u></Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-            style={styleSheet.AddReviewButton}
-            underlayColor='#3b83f7'>
-            <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
-        </TouchableOpacity>
         
         <Marker // SRC
             width={50}
             anchor={[33.97887246284416, -117.32811758572333]}
             color={'hsl(90, 100%, 40%)'}
+            posit
             onClick={() => navigation.navigate('Reviews', {name: 'SRC'})}
             onMouseOver={() => handleMouseOver(
               <>
@@ -869,6 +857,19 @@ export function HomeScreen({navigation}) {
         
           onMouseOut={handleMouseOut}
         />
+
+        <TouchableOpacity 
+            disabled={true}
+            style={styleSheet.Legend}
+            underlayColor='#3b83f7'>
+            <Text style={styleSheet.LegendText}><u>Legend</u></Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+            style={styleSheet.AddReviewButton}
+            underlayColor='#3b83f7'>
+            <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
+        </TouchableOpacity>
       </Map>
     </div>      
   );
