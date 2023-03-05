@@ -1,6 +1,6 @@
 import React, { useState, } from "react";
 import { Map, Marker } from "pigeon-maps";
-//import Reviews from './ReviewScreen.js';
+import { TouchableOpacity, Text, StyleSheet, Button } from "react-native";
 
 export function HomeScreen({navigation}) {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
@@ -23,7 +23,7 @@ export function HomeScreen({navigation}) {
 
   const handleMouseOut = () => {
   setDescription("");
-  };
+  }
 
   return (
     <div>
@@ -32,6 +32,12 @@ export function HomeScreen({navigation}) {
           {description && (
               <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '20px', left: '20px'}}>{description}</div>
           )}
+
+          <TouchableOpacity
+                    style={styles.AddReviewButton}
+                    underlayColor='#3b83f7'>
+                    <Text style={styles.AddReviewText}>Add{"\n"}Review</Text>
+          </TouchableOpacity>
           
           <Marker // SRC
               width={50}
@@ -860,10 +866,32 @@ export function HomeScreen({navigation}) {
         
           onMouseOut={handleMouseOut}
         />
-        
       </Map>
     </div>      
   );
 }
+
+const styles = StyleSheet.create({
+  AddReviewButton:{
+    marginRight:10,
+    marginLeft:1350,
+    marginTop:10,
+    width: 130,
+    height: 70,
+    backgroundColor:'#4487f2',
+    borderRadius:10,
+    borderWidth: 3,
+    borderColor: '#f5db36'
+  },
+  AddReviewText:{
+      color:'#fff',
+      textAlign:'center',
+      fontWeight: 'bold',
+      fontSize: 18,
+      paddingLeft : 10,
+      paddingRight : 10,
+      paddingTop: 9
+  }
+});
 
 export default HomeScreen;
