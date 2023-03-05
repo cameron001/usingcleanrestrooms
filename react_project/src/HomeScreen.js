@@ -58,7 +58,7 @@ export function HomeScreen({navigation}) {
         <Marker  // MRB
           width={50}
           anchor={[33.9769801275596, -117.3279795828765]}
-          color={'hsl(8, 100%, 50%)'}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'MRB'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -564,13 +564,13 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Orbach Library
           anchor={[33.974548794609056, -117.32445454526781]}
-          color={'hsl(60, 100%, 47%)'}
+          color={'hsl(8, 100%, 50%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Orbach Library'})}
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
               ~ Orbach Library Ratings ~<hr/><br/>
-              Cleanliness:   4/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
