@@ -1,24 +1,18 @@
 import React, { useState, } from "react";
 import { Map, Marker } from "pigeon-maps";
-import { TouchableOpacity, Text } from "react-native";
+import { TouchableOpacity, Text, View, useWindowDimensions } from "react-native";
 import styleSheet from './styles.js';
-import { View } from 'react-native';
-
 
 export function HomeScreen({navigation}) {
-  const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
+  const [center, setCenter] = useState([33.97437528063261, -117.32817063158994]);
   const [zoom, setZoom] = useState(16);
   const [description, setDescription] = React.useState("");
+  const {height, width} = useWindowDimensions();
 
   // Hides 'Home' navigation tab on top of screen
   React.useLayoutEffect(() => {
     navigation.setOptions({headerShown: false});
   }, [navigation]);
-
-  const handleMarkerClick = (markerCoordinates) => {
-    setCenter(markerCoordinates);
-    setZoom(18);
-  };
 
   const handleMouseOver = (description) => {
    setDescription(description);
@@ -31,10 +25,17 @@ export function HomeScreen({navigation}) {
   return (
     <div>
       <h1 className="Bathroom">UCR Restrooms Map</h1>
-      <Map height={'100vh'} width={'100vw'} center={center} zoom={zoom} style={{ height: '100vh', width: '100vw' }}>
-          {description && (
-              <div style={styleSheet.descriptionStyle}>{description}</div>
-          )}
+      <Map 
+          height={height - 	85}
+          width={width}
+          center={center} 
+          zoom={zoom} 
+          style={styleSheet.mapStyle}
+      >
+
+        {description && (
+            <div style={styleSheet.descriptionStyle}>{description}</div>
+        )}
         
         <Marker // SRC
             width={50}
