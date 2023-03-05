@@ -1,4 +1,10 @@
 const StyleSheet = {
+    descriptionStyle:{
+        backgroundColor: 'lightskyblue', 
+        position: 'absolute', 
+        top: '160px', 
+        left: '25px'
+    },
     AddReviewButton:{
       marginRight:10,
       marginLeft:1360,

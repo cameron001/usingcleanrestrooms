@@ -31,7 +31,7 @@ export function HomeScreen({navigation}) {
       <h1 className="Bathroom">UCR Restrooms Map</h1>
       <Map height={'100vh'} width={'100vw'} center={center} zoom={zoom} style={{ height: '100vh', width: '100vw' }}>
           {description && (
-              <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '20px', left: '20px'}}>{description}</div>
+              <div style={styleSheet.descriptionStyle}>{description}</div>
           )}
 
         <TouchableOpacity 
