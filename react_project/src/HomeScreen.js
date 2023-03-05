@@ -2,6 +2,8 @@ import React, { useState, } from "react";
 import { Map, Marker } from "pigeon-maps";
 import { TouchableOpacity, Text } from "react-native";
 import styleSheet from './styles.js';
+import { View } from 'react-native';
+
 
 export function HomeScreen({navigation}) {
   const [center, setCenter] = useState([33.97337528063261, -117.32817063158994]);
@@ -74,6 +76,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // MSE
           anchor={[33.97625669718612, -117.32811758508944]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'MSE'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -109,6 +112,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Skye Hall
           anchor={[33.975388161625816, -117.32889138706348]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Skye Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -144,6 +148,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Athletics and Dance
           anchor={[33.97476485644793, -117.32983029956057]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Athletics and Dance'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -161,6 +166,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // CHASS Interdisciplinary
           anchor={[33.9749242598777, -117.33035027491286]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'CHASS Interdisciplinary'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -178,6 +184,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Arts
           anchor={[33.97497739319835, -117.3317869832598]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Arts'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -195,6 +202,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Hinderaker Hall
           anchor={[33.97355501588781, -117.331594764]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Hinderaker Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -212,6 +220,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Humanities and Social Sciences
           anchor={[33.97281370839114, -117.3312074906149]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Humanities and Social Sciences'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -229,11 +238,12 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // The Barn
           anchor={[33.97226912406662, -117.33046169641133]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'The Barn'})}
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ Bathroom Ratings ~<hr/><br/>
+              ~ The Barn Ratings ~<hr/><br/>
               Cleanliness:   5/5 <br/>
               Accessibility: 4/5
             </pre>
@@ -246,6 +256,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Sproul Hall
           anchor={[33.972885518627145, -117.32974350134279]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Sproul Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -263,6 +274,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Watkins Hall
           anchor={[33.972610250603005, -117.32902976523543]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Watkins'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -280,6 +292,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Rivera Library
           anchor={[33.972656498845275, -117.32756473108327]}
+          color={'hsl(8, 100%, 50%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Rivera Library'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -297,6 +310,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Humanities
           anchor={[33.97298324117317, -117.33081216288222]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Humanities'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -314,6 +328,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Olmsted Hall
           anchor={[33.97127605583216, -117.32806283818857]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Olmsted Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -331,6 +346,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Psychology
           anchor={[33.970660531679904, -117.32759248199203]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Psychology'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -348,6 +364,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Chapman Hall
           anchor={[33.970256209760755, -117.32630157254835]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Chapman Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -365,6 +382,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Anderson Hall
           anchor={[33.969873437650385, -117.3259158691591]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Anderson Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -382,6 +400,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Entomology Museum
           anchor={[33.97007470718678, -117.32555183349648]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Entomology Museum'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -399,6 +418,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // SOM Research
           anchor={[33.97056881915526, -117.32553421638364]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'SOM Research'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -416,6 +436,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // East L&Q
           anchor={[33.97045630804011, -117.32476261841252]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'East L&Q'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -433,6 +454,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Entomology
           anchor={[33.97071414521058, -117.32634538295305]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Entomology'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -450,6 +472,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Genomics
           anchor={[33.97153453105675, -117.32619276008063]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Genomics'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -467,6 +490,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Boyden Laboratory
           anchor={[33.97111261923376, -117.32554834946234]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Boyden Laboratory'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -484,6 +508,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Campbell Hall
           anchor={[33.97168923106722, -117.3253957224082]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Campbell Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -501,6 +526,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // University Office 
           anchor={[33.971731422650215, -117.32498307534557]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'University Office'})}
 
           onMouseOver={() => handleMouseOver(
@@ -519,6 +545,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Fawcett Laboratory
           anchor={[33.97152984290477, -117.32423408859408]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Fawcett Laboratory'})}
        
           onMouseOver={() => handleMouseOver(
@@ -537,6 +564,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Orbach Library
           anchor={[33.974548794609056, -117.32445454526781]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Orbach Library'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -554,6 +582,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Chemical Sciences
           anchor={[33.974464415345345, -117.32306114714689]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Chemical Sciences'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -571,6 +600,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // School of Medicine Education Building
           anchor={[33.97380812993979, -117.32398536872923]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'School of Medicine Education Building'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -588,6 +618,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Physics
           anchor={[33.97457692065917, -117.32540985627634]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Physics'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -605,6 +636,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Pierce Hall
           anchor={[33.97423471599278, -117.3272102511631]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Pierce Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -622,6 +654,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Geology
           anchor={[33.97443628872918, -117.3262238495412]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Geology'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -639,6 +672,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Science Labs 1
           anchor={[33.97391126236491, -117.32617862686456]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Science Labs 1'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -656,6 +690,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Winston Chung Hall
           anchor={[33.9754510947876, -117.32582341661066]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Winston Chung Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -673,6 +708,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Bourns Hall
           anchor={[33.975460373627, -117.32692749538892]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Bourns Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -690,6 +726,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // HUB
           anchor={[33.974311512641826, -117.32874186187665]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'HUB'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -707,6 +744,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Student Services
           anchor={[33.97419607342888, -117.32978318922721]}
+          color={'hsl(90, 100%, 40%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Student Services'})}
           
           onMouseOver={() => handleMouseOver(
@@ -725,6 +763,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Costo Hall
           anchor={[33.97423118941484, -117.3292268814447]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Costo Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -742,6 +781,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Spieth Hall
           anchor={[33.972837215205715, -117.3265542910039]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Spieth Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -759,6 +799,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Batchelor Hall
           anchor={[33.972593329627976, -117.3251002359208]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Batchelor Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -776,6 +817,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Life Sciences
           anchor={[33.97228402373831, -117.32658721794732]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Life Sciences'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -793,6 +835,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Biological Sciences
           anchor={[33.972265388862475, -117.32608175581554]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Biological Sciences'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -810,6 +853,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Webber Hall
           anchor={[33.97353442674561, -117.32536279367079]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Webber Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -844,6 +888,7 @@ export function HomeScreen({navigation}) {
         <Marker
           width={50}  // Boyce Hall
           anchor={[33.973504419864376, -117.32491567420728]}
+          color={'hsl(60, 100%, 47%)'}
           onClick={() => navigation.navigate('Reviews', {name: 'Boyce Hall'})}
           onMouseOver={() => handleMouseOver(
             <>
@@ -859,10 +904,24 @@ export function HomeScreen({navigation}) {
         />
 
         <TouchableOpacity 
-            disabled={true}
-            style={styleSheet.Legend}
-            underlayColor='#3b83f7'>
-            <Text style={styleSheet.LegendText}><u>Legend</u></Text>
+          disabled={true}
+          style={styleSheet.Legend}
+          underlayColor='#3b83f7'>
+          <Text style={styleSheet.LegendText}>
+            <u>Legend:</u>{'\n'}{'\n'}
+            <View style={{ backgroundColor: 'lightgreen', borderRadius: 3, width: 12, height: 12, marginRight: 5 }}>
+              <Text style={{ color: 'white' }}> </Text>
+            </View>
+            Clean{'\n'}
+            <View style={{ backgroundColor: 'yellow', borderRadius: 3, width: 12, height: 12, marginRight: 5 }}>
+              <Text style={{ color: 'black' }}> </Text>
+            </View>
+            Moderate{'\n'}
+            <View style={{ backgroundColor: 'red', borderRadius: 3, width: 12, height: 12, marginRight: 5 }}>
+              <Text style={{ color: 'white' }}> </Text>
+            </View>
+            Unclean
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity
