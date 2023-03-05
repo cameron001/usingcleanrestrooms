@@ -925,11 +925,13 @@ export function HomeScreen({navigation}) {
           </Text>
         </TouchableOpacity>
 
-        <TouchableOpacity
-            style={styleSheet.AddReviewButton}
-            underlayColor='#3b83f7'>
-            <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
-        </TouchableOpacity>
+        <View style={styleSheet.ButtonContainer}>
+          <TouchableOpacity
+              style={styleSheet.AddReviewButton}
+              underlayColor='#3b83f7'>
+              <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
+          </TouchableOpacity>
+        </View>
       </Map>
     </div>      
   );

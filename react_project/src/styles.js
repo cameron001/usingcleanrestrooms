@@ -5,10 +5,16 @@ const StyleSheet = {
         top: '160px', 
         left: '25px'
     },
+    ButtonContainer: {
+      flex: 1,
+      flexDirection: 'row',
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+      paddingRight: 20,
+    },
     AddReviewButton:{
-      marginRight:10,
-      marginLeft:1360,
-      marginTop:-140,
+      marginTop:-210,
+      position: 'absolute',
       width: 130,
       height: 70,
       backgroundColor:'#4487f2',
@@ -28,7 +34,7 @@ const StyleSheet = {
     Legend:{
         marginRight:20,
         marginLeft:20,
-        marginTop:10,
+        marginTop:15,
         width: 160,
         height: 140,
         backgroundColor:'#f8faf7',
