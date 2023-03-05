@@ -34,10 +34,17 @@ export function HomeScreen({navigation}) {
               <div style={{backgroundColor: 'lightskyblue', position: 'absolute', top: '20px', left: '20px'}}>{description}</div>
           )}
 
+        <TouchableOpacity 
+            disabled={true}
+            style={styleSheet.Legend}
+            underlayColor='#3b83f7'>
+            <Text style={styleSheet.LegendText}><u>Legend</u></Text>
+        </TouchableOpacity>
+
         <TouchableOpacity
-                  style={styleSheet.AddReviewButton}
-                  underlayColor='#3b83f7'>
-                  <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
+            style={styleSheet.AddReviewButton}
+            underlayColor='#3b83f7'>
+            <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
         </TouchableOpacity>
         
         <Marker // SRC
