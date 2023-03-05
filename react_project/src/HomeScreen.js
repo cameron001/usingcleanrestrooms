@@ -46,8 +46,8 @@ export function HomeScreen({navigation}) {
               <>
               <pre>
                 ~ SRC Ratings ~<hr/><br/>
-                Cleanliness:   5/5 <br/>
-                Accessibility: 4/5
+                Cleanliness:   4/5 <br/>
+                Accessibility: 5/5
               </pre>
               </>
             )}
@@ -64,7 +64,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ MRB Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -82,7 +82,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ MSE Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -100,7 +100,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ UNLH Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -118,7 +118,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Skye Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -135,8 +135,8 @@ export function HomeScreen({navigation}) {
           onMouseOver={() => handleMouseOver(
             <>
             <pre>
-              ~ SRC Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              ~ Career Center Ratings ~<hr/><br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -154,7 +154,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Athletics and Dance Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -172,7 +172,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ CHASS Interdisciplinary Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -190,7 +190,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Arts Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -208,7 +208,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Hinderaker Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -226,7 +226,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Humanities and Social Sciences Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -244,7 +244,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ The Barn Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -262,7 +262,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Sproul Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -280,7 +280,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Watkins Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -298,7 +298,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Rivera Library Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   2/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -316,7 +316,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Humanities Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -334,7 +334,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Olmsted Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -352,7 +352,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Psychology Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -370,7 +370,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Chapman Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -388,7 +388,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Anderson Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -406,7 +406,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Entomology Museum Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -424,7 +424,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ SOM Research Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -442,7 +442,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ East L&Q Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -460,7 +460,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Entomology Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -478,7 +478,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Genomics Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -496,7 +496,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Boyden Laboratory Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -514,7 +514,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Campbell Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -533,7 +533,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ University Office Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -552,7 +552,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Fawcett Laboratory Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -570,7 +570,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Orbach Library Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -588,7 +588,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Chemical Sciences Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -606,7 +606,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ School of Medicine Education Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -624,7 +624,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Physics Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -642,7 +642,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Pierce Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -660,7 +660,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Geology Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -678,7 +678,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Science Labs 1 Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -696,7 +696,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Winston Chung Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -714,7 +714,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Bourns Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -732,7 +732,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ HUB Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -751,7 +751,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Student Services Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -769,7 +769,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Costo Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -787,7 +787,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Spieth Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -805,7 +805,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Batchelor Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -823,7 +823,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Life Sciences Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -841,7 +841,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Biological Sciences Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   4/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -859,7 +859,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Webber Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
@@ -894,7 +894,7 @@ export function HomeScreen({navigation}) {
             <>
             <pre>
               ~ Boyce Hall Ratings ~<hr/><br/>
-              Cleanliness:   5/5 <br/>
+              Cleanliness:   3/5 <br/>
               Accessibility: 4/5
             </pre>
             </>
