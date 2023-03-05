@@ -1,8 +1,8 @@
 const StyleSheet = {
     AddReviewButton:{
-      marginRight:30,
-      marginLeft:1335,
-      marginTop:10,
+      marginRight:10,
+      marginLeft:1360,
+      marginTop:-140,
       width: 130,
       height: 70,
       backgroundColor:'#4487f2',
@@ -21,7 +21,7 @@ const StyleSheet = {
     },
     Legend:{
         marginRight:20,
-        marginLeft:1320,
+        marginLeft:20,
         marginTop:10,
         width: 160,
         height: 140,
