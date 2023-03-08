@@ -1,6 +1,6 @@
 import React, { useState, } from "react";
 import { Map, Marker } from "pigeon-maps";
-import { TouchableOpacity, Text, View, useWindowDimensions } from "react-native";
+import { TouchableOpacity, Text, View, useWindowDimensions, Linking } from "react-native";
 import styleSheet from './styles.js';
 
 export function HomeScreen({navigation}) {
@@ -30,6 +30,7 @@ export function HomeScreen({navigation}) {
           width={width}
           center={center} 
           zoom={zoom} 
+          minZoom={16}
           style={styleSheet.mapStyle}
       >
 
@@ -927,6 +928,10 @@ export function HomeScreen({navigation}) {
 
         <View style={styleSheet.ButtonContainer}>
           <TouchableOpacity
+              onPress={() => {
+                Linking.openURL("https://forms.gle/K2hANZ7bSpRLeZAd7");
+              }}
+
               style={styleSheet.AddReviewButton}
               underlayColor='#3b83f7'>
               <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
