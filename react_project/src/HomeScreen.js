@@ -9,10 +9,6 @@ export function HomeScreen({navigation}) {
   const [description, setDescription] = React.useState("");
   const {height, width} = useWindowDimensions();
 
-  // Hides 'Home' navigation tab on top of screen
-  React.useLayoutEffect(() => {
-    navigation.setOptions({headerShown: false});
-  }, [navigation]);
 
   const handleMouseOver = (description) => {
    setDescription(description);
