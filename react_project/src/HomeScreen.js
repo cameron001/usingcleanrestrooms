@@ -30,6 +30,7 @@ export function HomeScreen({navigation}) {
           width={width}
           center={center} 
           zoom={zoom} 
+          minZoom={16}
           style={styleSheet.mapStyle}
       >
 
@@ -930,7 +931,7 @@ export function HomeScreen({navigation}) {
               onPress={() => {
                 Linking.openURL("https://forms.gle/K2hANZ7bSpRLeZAd7");
               }}
-              
+
               style={styleSheet.AddReviewButton}
               underlayColor='#3b83f7'>
               <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
