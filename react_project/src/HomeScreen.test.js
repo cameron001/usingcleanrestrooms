@@ -9,7 +9,7 @@ test("map header appears", () => {
     
     //select the elements you want to interact with
 
-    const linkElement = screen.getByText("UCR Bathrooms on Campus");
+    const linkElement = screen.getByText("UCR Restrooms Map");
     expect(linkElement).toBeInTheDocument();
     
     
