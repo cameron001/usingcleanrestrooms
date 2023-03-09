@@ -277,8 +277,8 @@ export function HomeScreen({navigation}) {
               <>
               <pre>
                 ~ Watkins Ratings ~<hr/><br/>
-                Cleanliness:   3/5 <br/>
-                Accessibility: 4/5
+                Cleanliness:   2/5 <br/>
+                Accessibility: 3/5
               </pre>
               </>
             )}
@@ -295,7 +295,7 @@ export function HomeScreen({navigation}) {
               <>
               <pre>
                 ~ Rivera Library Ratings ~<hr/><br/>
-                Cleanliness:   2/5 <br/>
+                Cleanliness:   4/5 <br/>
                 Accessibility: 4/5
               </pre>
               </>
