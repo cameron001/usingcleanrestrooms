@@ -35,24 +35,25 @@ export function HomeScreen({navigation}) {
               <div style={styleSheet.descriptionStyle}>{description}</div>
           )}
           
-          <Marker // SRC
-              width={50}
-              anchor={[33.97887246284416, -117.32811758572333]}
-              color={'hsl(90, 100%, 40%)'}
-              posit
-              onClick={() => navigation.navigate('Reviews', {name: 'SRC'})}
-              onMouseOver={() => handleMouseOver(
-                <>
-                <pre>
-                  ~ SRC Ratings ~<hr/><br/>
-                  Cleanliness:   4/5 <br/>
-                  Accessibility: 5/5
-                </pre>
-                </>
-              )}
+            <Marker // SRC
+                width={50}
+                anchor={[33.97887246284416, -117.32811758572333]}
+                color={'hsl(90, 100%, 40%)'}
+                posit
+                onClick={() => navigation.navigate('Reviews', {name: 'SRC'})}
+                onMouseOver={() => handleMouseOver(
+                  <>
+                  <pre>
+                    ~ SRC Ratings ~<hr/><br/>
+                    Cleanliness:   4/5 <br/>
+                    Accessibility: 5/5
+                  </pre>
+                  </>
+                )}
 
-            onMouseOut={handleMouseOut}
-          />
+              onMouseOut={handleMouseOut}
+            />
+          
 
           <Marker  // MRB
             width={50}
