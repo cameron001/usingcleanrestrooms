@@ -44,7 +44,7 @@ useEffect(() => {
                     <th>Restroom Gender</th>
                     <th>Accessible</th>
                     <th>Rating</th>
-                    <th>Review</th>
+                    <th>Review Comments</th>
                 </tr>
                 {data.map((review, index) => (
                     <tr key={index}>
