@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useState } from "react";
-import { View, Text, StyleSheet, } from 'react-native';
 import HomeScreen from './HomeScreen.js';
 import ReviewScreen from './ReviewScreen.js';
 

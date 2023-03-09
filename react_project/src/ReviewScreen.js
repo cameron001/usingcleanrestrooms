@@ -32,7 +32,7 @@ useEffect(() => {
             <tbody>
                 <tr>
                     <th>Name</th>
-                    <th>Bathroom</th>
+                    <th>Restroom</th>
                     <th>Floor</th>
                     <th>Accessible</th>
                     <th>Rating</th>

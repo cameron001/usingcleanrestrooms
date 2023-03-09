@@ -46,3 +46,11 @@ h1{
   text-align: center;
   color: blue;
 }
+
+th{
+  padding-left:40px;
+}
+
+td{
+  padding-left:40px;
+}
