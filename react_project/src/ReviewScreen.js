@@ -5,6 +5,8 @@ import styleSheet from './styles.js';
 
 export function ReviewScreen({navigation, route}) {
     const [data, setData] = useState([]);
+    const param_name = route.params.param_name;
+    const name = route.params.name;
 
     const fetchData = () => {
         var myHeaders = new Headers();
@@ -15,7 +17,7 @@ export function ReviewScreen({navigation, route}) {
             redirect: "follow",
 
         };
-        fetch("https://v1.nocodeapi.com/calebmcclure/google_sheets/sfwrdAWrqvFOoVFt?tabId=FormResponses&filterBy=Building&filterValue=SRC", requestOptions)
+        fetch("https://v1.nocodeapi.com/calebmcclure/google_sheets/sfwrdAWrqvFOoVFt?tabId=FormResponses&filterBy=Building&filterValue=" + param_name, requestOptions)
             .then(response => response.json())
             .then((actualData) => {
                 console.log(actualData);
@@ -32,7 +34,7 @@ useEffect(() => {
     return (
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
             <Text style={styleSheet.titleText}>
-            {route.params.name} Restroom Reviews
+            {name} Restroom Reviews
             </Text>
             <tbody>
                 <tr>

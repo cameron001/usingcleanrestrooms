@@ -111,7 +111,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Skye Hall
             anchor={[33.975388161625816, -117.32889138706348]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Skye Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'SkyeHall', name: 'Skye Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -147,7 +147,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Athletics and Dance
             anchor={[33.97476485644793, -117.32983029956057]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Athletics and Dance'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'Athletics&Dance', sname: 'Athletics and Dance'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -165,7 +165,7 @@ export function HomeScreen({navigation}) {
             width={50}  // CHASS Interdisciplinary
             anchor={[33.9749242598777, -117.33035027491286]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'CHASS Interdisciplinary'})}
+            onClick={() => navigation.navigate('Reviews', {param_name:'CHASSInterdisciplinary', name: 'CHASS Interdisciplinary'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -201,7 +201,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Hinderaker Hall
             anchor={[33.97355501588781, -117.331594764]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Hinderaker Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'HinderakerHall', name: 'Hinderaker Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -219,7 +219,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Humanities and Social Sciences
             anchor={[33.97281370839114, -117.3312074906149]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Humanities and Social Sciences'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'Humanities&SocialSciences', name: 'Humanities and Social Sciences'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -237,7 +237,7 @@ export function HomeScreen({navigation}) {
             width={50}  // The Barn
             anchor={[33.97226912406662, -117.33046169641133]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'The Barn'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'TheBarn', name: 'The Barn'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -255,7 +255,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Sproul Hall
             anchor={[33.972885518627145, -117.32974350134279]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Sproul Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'SproulHall', name: 'Sproul Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -291,7 +291,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Rivera Library
             anchor={[33.972656498845275, -117.32756473108327]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Rivera_Reviews', {name: 'Rivera Library'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'RiveraLibrary', name: 'Rivera Library'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -327,7 +327,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Olmsted Hall
             anchor={[33.97127605583216, -117.32806283818857]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Olmsted Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'OlmstedHall', name: 'Olmsted Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -363,7 +363,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Chapman Hall
             anchor={[33.970256209760755, -117.32630157254835]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Chapman Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'ChapmanHall', name: 'Chapman Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -381,7 +381,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Anderson Hall
             anchor={[33.969873437650385, -117.3259158691591]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Anderson Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'AndersonHall', name: 'Anderson Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -399,7 +399,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Entomology Museum
             anchor={[33.97007470718678, -117.32555183349648]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Entomology Museum'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'EntomologyMuseum', name: 'Entomology Museum'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -417,7 +417,7 @@ export function HomeScreen({navigation}) {
             width={50}  // SOM Research
             anchor={[33.97056881915526, -117.32553421638364]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'SOM Research'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'SOMResearch', name: 'SOM Research'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -435,7 +435,7 @@ export function HomeScreen({navigation}) {
             width={50}  // East L&Q
             anchor={[33.97045630804011, -117.32476261841252]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'East L&Q'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'EastL&Q', name: 'East L&Q'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -489,7 +489,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Boyden Laboratory
             anchor={[33.97111261923376, -117.32554834946234]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Boyden Laboratory'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'BoydenLaboratory', name: 'Boyden Laboratory'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -507,7 +507,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Campbell Hall
             anchor={[33.97168923106722, -117.3253957224082]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Campbell Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'CampbellHall', name: 'Campbell Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -525,7 +525,7 @@ export function HomeScreen({navigation}) {
             width={50}  // University Office 
             anchor={[33.971731422650215, -117.32498307534557]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'University Office'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'UniversityOffice', name: 'University Office'})}
 
             onMouseOver={() => handleMouseOver(
               <>
@@ -544,7 +544,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Fawcett Laboratory
             anchor={[33.97152984290477, -117.32423408859408]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Fawcett Laboratory'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'FawcettLaboratory', name: 'Fawcett Laboratory'})}
         
             onMouseOver={() => handleMouseOver(
               <>
@@ -563,7 +563,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Orbach Library
             anchor={[33.974548794609056, -117.32445454526781]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Orbach_Reviews', {name: 'Orbach Library'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'OrbachLibrary', name: 'Orbach Library'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -581,7 +581,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Chemical Sciences
             anchor={[33.974464415345345, -117.32306114714689]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Chemical Sciences'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'ChemicalSciences', name: 'Chemical Sciences'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -599,7 +599,7 @@ export function HomeScreen({navigation}) {
             width={50}  // School of Medicine Education Building
             anchor={[33.97380812993979, -117.32398536872923]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'School of Medicine Education Building'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'SchoolOfMedicineEducationBuilding', name: 'School of Medicine Education Building'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -635,7 +635,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Pierce Hall
             anchor={[33.97423471599278, -117.3272102511631]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Pierce Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'PierceHall', name: 'Pierce Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -671,7 +671,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Science Labs 1
             anchor={[33.97391126236491, -117.32617862686456]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Science Labs 1'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'ScienceLabs1', name: 'Science Labs 1'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -689,7 +689,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Winston Chung Hall
             anchor={[33.9754510947876, -117.32582341661066]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Winston Chung Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'WinstonChungHall', name: 'Winston Chung Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -707,7 +707,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Bourns Hall
             anchor={[33.975460373627, -117.32692749538892]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Bourns Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'BournsHall', name: 'Bourns Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -743,7 +743,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Student Services
             anchor={[33.97419607342888, -117.32978318922721]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Student Services'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'StudentServices', name: 'Student Services'})}
             
             onMouseOver={() => handleMouseOver(
               <>
@@ -762,7 +762,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Costo Hall
             anchor={[33.97423118941484, -117.3292268814447]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Costo Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'CostoHall', name: 'Costo Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -780,7 +780,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Spieth Hall
             anchor={[33.972837215205715, -117.3265542910039]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Spieth Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'SpiethHall', name: 'Spieth Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -798,7 +798,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Batchelor Hall
             anchor={[33.972593329627976, -117.3251002359208]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Batchelor Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'BatchelorHall', name: 'Batchelor Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -816,7 +816,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Life Sciences
             anchor={[33.97228402373831, -117.32658721794732]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Life Sciences'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'LifeSciences', name: 'Life Sciences'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -834,7 +834,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Biological Sciences
             anchor={[33.972265388862475, -117.32608175581554]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Biological Sciences'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'BiologicalSciences', name: 'Biological Sciences'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -852,7 +852,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Webber Hall
             anchor={[33.97353442674561, -117.32536279367079]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Webber Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'WebberHall', name: 'Webber Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -887,7 +887,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Boyce Hall
             anchor={[33.973504419864376, -117.32491567420728]}
             color={'hsl(60, 100%, 47%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Boyce Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'BoyceHall', name: 'Boyce Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
