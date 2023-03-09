@@ -599,7 +599,7 @@ export function HomeScreen({navigation}) {
             width={50}  // School of Medicine Education Building
             anchor={[33.97380812993979, -117.32398536872923]}
             color={'hsl(90, 100%, 40%)'}
-            onClick={() => navigation.navigate('Reviews', {param_name: 'SchoolOfMedicineEducationBuilding', name: 'School of Medicine Education Building'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'SchoolOfMedicineEducation', name: 'School of Medicine Education'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
