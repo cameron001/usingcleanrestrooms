@@ -272,7 +272,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Watkins Hall
             anchor={[33.972610250603005, -117.32902976523543]}
             color={'hsl(8, 100%, 50%)'}
-            onClick={() => navigation.navigate('Reviews', {param_name: 'Watkins', name: 'Watkins Hall'})}
+            onClick={() => navigation.navigate('Reviews', {param_name: 'WatkinsHall', name: 'Watkins Hall'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
