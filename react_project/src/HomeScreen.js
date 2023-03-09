@@ -20,7 +20,7 @@ export function HomeScreen({navigation}) {
 
   return (
     <div>
-      <h1 className="Bathroom">UCR Restrooms Map</h1>
+      <h1 className="Restroom">UCR Restrooms Map</h1>
       <div data-testid='mapID'>
         <Map 
             height={height - 	85}
@@ -39,7 +39,6 @@ export function HomeScreen({navigation}) {
               width={50}
               anchor={[33.97887246284416, -117.32811758572333]}
               color={'hsl(90, 100%, 40%)'}
-              posit
               onClick={() => navigation.navigate('Reviews', {name: 'SRC'})}
               onMouseOver={() => handleMouseOver(
                 <>
@@ -57,7 +56,7 @@ export function HomeScreen({navigation}) {
           <Marker  // MRB
             width={50}
             anchor={[33.9769801275596, -117.3279795828765]}
-            color={'hsl(90, 100%, 40%)'}
+            color={'hsl(8, 100%, 50%)'}
             onClick={() => navigation.navigate('Reviews', {name: 'MRB'})}
             onMouseOver={() => handleMouseOver(
               <>
@@ -273,7 +272,7 @@ export function HomeScreen({navigation}) {
           <Marker
             width={50}  // Watkins Hall
             anchor={[33.972610250603005, -117.32902976523543]}
-            color={'hsl(60, 100%, 47%)'}
+            color={'hsl(8, 100%, 50%)'}
             onClick={() => navigation.navigate('Reviews', {name: 'Watkins'})}
             onMouseOver={() => handleMouseOver(
               <>
@@ -291,8 +290,8 @@ export function HomeScreen({navigation}) {
           <Marker
             width={50}  // Rivera Library
             anchor={[33.972656498845275, -117.32756473108327]}
-            color={'hsl(8, 100%, 50%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Rivera Library'})}
+            color={'hsl(90, 100%, 40%)'}
+            onClick={() => navigation.navigate('Rivera_Reviews', {name: 'Rivera Library'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
@@ -564,7 +563,7 @@ export function HomeScreen({navigation}) {
             width={50}  // Orbach Library
             anchor={[33.974548794609056, -117.32445454526781]}
             color={'hsl(8, 100%, 50%)'}
-            onClick={() => navigation.navigate('Reviews', {name: 'Orbach Library'})}
+            onClick={() => navigation.navigate('Orbach_Reviews', {name: 'Orbach Library'})}
             onMouseOver={() => handleMouseOver(
               <>
               <pre>
