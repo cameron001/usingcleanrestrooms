@@ -562,7 +562,7 @@ export function HomeScreen({navigation}) {
           <Marker
             width={50}  // Orbach Library
             anchor={[33.974548794609056, -117.32445454526781]}
-            color={'hsl(8, 100%, 50%)'}
+            color={'hsl(90, 100%, 40%)'}
             onClick={() => navigation.navigate('Orbach_Reviews', {name: 'Orbach Library'})}
             onMouseOver={() => handleMouseOver(
               <>
