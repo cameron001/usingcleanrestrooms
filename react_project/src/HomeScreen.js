@@ -931,7 +931,7 @@ export function HomeScreen({navigation}) {
 
                 style={styleSheet.AddReviewButton}
                 underlayColor='#3b83f7'>
-                <Text style={styleSheet.AddReviewText}>Add{"\n"}Review</Text>
+                <Text style={styleSheet.AddReviewText} data-testID='addButtonText'>Add{"\n"}Review</Text>
             </TouchableOpacity>
           </View>
           
