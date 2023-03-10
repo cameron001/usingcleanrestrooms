@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState } from "react";
 import HomeScreen from './HomeScreen.js';
-import ReviewScreen from './ReviewScreen.js';
+import Review from './ReviewScreen.js';
 
 // Navigation import
 import { NavigationContainer } from '@react-navigation/native';
@@ -14,7 +14,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} options={{headerShown: false}} />
-        <Stack.Screen name="Reviews" component={ReviewScreen} />
+        <Stack.Screen name="Reviews" component={Review} />
       </Stack.Navigator>
     </NavigationContainer>
   )

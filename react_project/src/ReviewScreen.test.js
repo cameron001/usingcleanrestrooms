@@ -1,37 +1,49 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import HomeScreen from './HomeScreen.js';
-import ReviewScreen from './ReviewScreen';
-import { NavigationContainer } from "@react-navigation/native";
-import AppNavigator from './App';
 
+import ReviewScreen from "./ReviewScreen.js";
+import renderer from 'react-test-renderer';
+import { Linking } from 'react-native';
 
-jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+test('SRC marker click navigates to ReviewScreen', () => {
+    const {queryByTestId} = render(<HomeScreen/>);
+    const mockNavigate = jest.fn();
 
-
-test("Review page for SRC appears when a marker is clicked", () => {
-    // const component = (
-    //     <NavigationContainer>
-    //       <AppNavigator />
-    //     </NavigationContainer>
-    //   );
-
-    
-   render(<AppNavigator />);
-   render(<HomeScreen />)
-   navigation.navigate('Reviews', {name: 'SRC'})
-   
-   const linkElement = screen.getByText("Accessible");
-   expect(linkElement).toBeOnTheScreen();
-  
-  
+    // Without timer, Jest will test markers before it's fully rendered
+    setTimeout(() => {
+        const markerComponent = queryByTestId('srcMarker');
+        fireEvent(markerComponent, 'onClick');
+        expect(mockNavigate).toHaveBeenCalledWith('Reviews');
+        done();
+    }, 100);
 });
 
+test('Rivera Library marker click navigates to ReviewScreen', () => {
+    const {queryByTestId} = render(<HomeScreen/>);
+    const mockNavigate = jest.fn();
 
-test("review screen appears", () => {
-   render(<ReviewScreen />);
+    // Without timer, Jest will test markers before it's fully rendered
+    setTimeout(() => {
+        const markerComponent = queryByTestId('riveraMarker');
+        fireEvent(markerComponent, 'onClick');
+        expect(mockNavigate).toHaveBeenCalledWith('Reviews');
+        done();
+    }, 100);
+});
 
+test('ReviewScreen contains correct headers', () => {
+    const {queryByTestId} = render(<HomeScreen/>);
+    const mockNavigate = jest.fn();
 
-   const revText = screen.getByText("Accessible");
-   expect(revText).toBeInTheDocument();
+    // Without timer, Jest will test markers before it's fully rendered
+    setTimeout(() => {
+        const markerComponent = queryByTestId('srcMarker');
+        fireEvent(markerComponent, 'onClick');
+        
+        const reviews = renderer.create(<ReviewScreen/>).toJSON();
+        expect(reviews).toMatchSnapshot();
+
+        done();
+    }, 100);
 });

@@ -3,10 +3,8 @@ import { Text, View } from "react-native";
 import "./App.css";
 import styleSheet from './styles.js';
 
-export function ReviewScreen({navigation, route}) {
+export function RiveraScreen({navigation, route}) {
     const [data, setData] = useState([]);
-    const param_name = route.params.param_name;
-    const name = route.params.name;
 
     const fetchData = () => {
         var myHeaders = new Headers();
@@ -17,7 +15,7 @@ export function ReviewScreen({navigation, route}) {
             redirect: "follow",
 
         };
-        fetch("https://v1.nocodeapi.com/calebmcclure/google_sheets/sfwrdAWrqvFOoVFt?tabId=FormResponses&filterBy=Building&filterValue=" + param_name, requestOptions)
+        fetch("https://v1.nocodeapi.com/calebmcclure/google_sheets/sfwrdAWrqvFOoVFt?tabId=FormResponses&filterBy=Building&filterValue=RiveraLibrary", requestOptions)
             .then(response => response.json())
             .then((actualData) => {
                 console.log(actualData);
@@ -34,7 +32,7 @@ useEffect(() => {
     return (
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
             <Text style={styleSheet.titleText}>
-            {name} Restroom Reviews
+            {route.params.name} Restroom Reviews
             </Text>
             <tbody>
                 <tr>
@@ -44,7 +42,7 @@ useEffect(() => {
                     <th>Restroom Gender</th>
                     <th>Accessible</th>
                     <th>Rating</th>
-                    <th>Review Comments</th>
+                    <th>Review</th>
                 </tr>
                 {data.map((review, index) => (
                     <tr key={index}>
@@ -62,4 +60,4 @@ useEffect(() => {
     );
 }
 
-export default ReviewScreen
+export default RiveraScreen;
