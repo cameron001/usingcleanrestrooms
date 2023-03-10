@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map page renders correctly 1`] = `
+<div>
+  <h1
+    className="Restroom"
+  >
+    UCR Restrooms Map
+  </h1>
+  <div
+    dir="ltr"
+    style={
+      Object {
+        "background": "#dddddd",
+        "display": "inline-block",
+        "height": -85,
+        "overflow": "hidden",
+        "position": "relative",
+        "touchAction": "none",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
