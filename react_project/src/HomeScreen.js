@@ -20,8 +20,8 @@ export function HomeScreen({navigation}) {
   return (
     <div>
       <h1 className="Restroom">UCR Restrooms Map</h1>
-      <div data-testid='mapID'>
         <Map 
+            data-testid='mapID'
             height={height - 	85}
             width={width}
             center={center} 
@@ -31,7 +31,7 @@ export function HomeScreen({navigation}) {
         >
 
           {description && (
-              <div style={styleSheet.descriptionStyle}>{description}</div>
+              <div style={styleSheet.descriptionStyle} data-testId="descID">{description}</div>
           )}
           
           <Marker // SRC
@@ -50,6 +50,7 @@ export function HomeScreen({navigation}) {
               )}
 
             onMouseOut={handleMouseOut}
+            data-testid="srcMarker"
           />
 
           <Marker  // MRB
@@ -302,6 +303,7 @@ export function HomeScreen({navigation}) {
             )}
           
             onMouseOut={handleMouseOut}
+            data-testid='riveraMarker'
           />
 
           <Marker
@@ -934,8 +936,7 @@ export function HomeScreen({navigation}) {
           </View>
           
         </Map>
-        </div>
-    </div>      
+        </div>    
   );
 }
 
