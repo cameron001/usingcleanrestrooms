@@ -33,7 +33,7 @@ useEffect(() => {
 
     return (
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-            <Text style={styleSheet.titleText}>
+            <Text style={styleSheet.titleText} data-testID='reviewHeader'>
             {name} Restroom Reviews
             </Text>
             <tbody>
