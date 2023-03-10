@@ -630,6 +630,7 @@ export function HomeScreen({navigation}) {
             )}
           
             onMouseOut={handleMouseOut}
+            data-testid='physicsMarker'
           />
 
           <Marker

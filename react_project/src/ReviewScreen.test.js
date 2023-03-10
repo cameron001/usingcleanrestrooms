@@ -32,6 +32,21 @@ test('Rivera Library marker click navigates to ReviewScreen', () => {
     }, 100);
 });
 
+test('Tests that physics building review data appears when physics marker clicked', () => {
+    const home = renderer.create(<HomeScreen/>);
+
+    setTimeout(() => {
+        const srcMarker = home.root.findByProps({ testID: "physicsMarker" });
+        srcMarker.props.onClick();
+
+        waitFor(() => getByText("Physics Restroom Reviews"));
+        const reviewHeader = getByText("THISISATESTREVIEW");
+        expect(reviewHeader).toBeTruthy();
+
+        done();
+    }, 100);
+});
+
 test("Review Screen shows correct header with SRC Marker click", () => {
     const home = renderer.create(<HomeScreen/>);
 
