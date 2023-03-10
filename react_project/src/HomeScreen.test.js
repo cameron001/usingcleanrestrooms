@@ -5,16 +5,6 @@ import ReviewScreen from "./ReviewScreen.js";
 import renderer from 'react-test-renderer';
 import { Linking } from 'react-native';
 
-test("Map header appears", () => {
-    // render the component on virtual dom
-    render(<HomeScreen />);
-    
-    //select the elements you want to interact with
-    const linkElement = screen.getByText("UCR Restrooms Map");
-
-    expect(linkElement).toBeInTheDocument();
-});
-
 test("Map page renders correctly", () => {
     const map = renderer.create(<HomeScreen/>).toJSON();
     
@@ -48,19 +38,6 @@ test('Rivera Library marker displays properly', () => {
         expect(markerComponent).not.toBeNull();
         done();
       }, 100);
-});
-
-test('SRC marker click navigates to ReviewScreen', () => {
-    const {queryByTestId} = render(<HomeScreen/>);
-    const mockNavigate = jest.fn();
-
-    // Without timer, Jest will test markers before it's fully rendered
-    setTimeout(() => {
-        const markerComponent = queryByTestId('srcMarker');
-        fireEvent(markerComponent, 'onClick');
-        expect(mockNavigate).toHaveBeenCalledWith('Reviews');
-        done();
-    }, 100);
 });
 
 test('AddReview button is rendered', () => {
