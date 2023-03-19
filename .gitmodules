@@ -4,3 +4,6 @@
 [submodule "CS100_Projects/googletest"]
 	path = CS100_Projects/googletest
 	url = https://github.com/google/googletest.git
+[submodule "my-react-project/personal-website/my-react-project/personal-website/portfolio-website"]
+	path = my-react-project/personal-website/my-react-project/personal-website/portfolio-website
+	url = https://github.com/jamestacos/portfolio-website.git
